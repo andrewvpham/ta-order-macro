@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "stockAnalysis",
-    title: "Analyze Stock Quote",
+    title: "Send stock quote to Webull",
     contexts: ["selection"],
   });
 });
