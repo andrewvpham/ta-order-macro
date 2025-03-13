@@ -1,7 +1,7 @@
 <h2>This is V1 of the Trend Analytics Order Macro Chrome Extension</h2>
 <br>
 <br>
-This is only a basic version that helps place orders in Webull webview based on entries typed out in the discord chat.
+This is only a basic version that helps place orders in Webull webview based on entries typed out in the discord chat. This does not place stop losses.
 <br>
 <br>
 How to use it:
