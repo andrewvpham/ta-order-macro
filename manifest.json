@@ -1,9 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Trend Analytics Order Macro",
+  "name": "Stock Analysis Extension",
   "version": "1.0",
-  "description": "An extension without icons.",
-  "action": {
-    "default_popup": "popup.html"
-  }
+  "description": "Extracts stock info from selected text.",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://app.webull.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }
