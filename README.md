@@ -28,5 +28,3 @@ This is only a basic version that helps place orders in Webull webview based on 
 -Click load unpacked
 <br>
 -Select the folder extracted from the zip file
-<br>
--This will open up webull in a new tab and voila
