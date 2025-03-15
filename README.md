@@ -7,6 +7,9 @@ This is only a basic version that helps place orders in Webull webview based on 
 <b>How to use it:</b>
 <br>
 <br>
+<img src="https://cdn.discordapp.com/attachments/1023849613746257950/1350497462393110578/chromeextension.gif?ex=67d6f446&is=67d5a2c6&hm=6f7594f08ed262857956fd99fb3ff178467f705b0b3dec797d1765bb9bb86c16&cdn.discordapp.com/attachments/1023849613746257950/1350497462393110578/chromeextension.gif" >
+</br>
+</br>
 -Highlight(have to highlight from right to left, otherwise it will bring up discords right click menu) an entry text that has a clearly defined ticker and entry price (e.g "LFWD took some @ $1.7s. S/L under $1.60.")
 <br>
 -Right click the text and click "Send stock quote to Webull"
